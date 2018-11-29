@@ -12,40 +12,43 @@
     </head>
 
     <body class="bg-secondary">
-        <div class="container">
+        <header class="container">
             <h1 class="display-4 text-white py-3">Personal Movie DB</h1>
+        </header>
+
+        <!--favourite-->
+        <section>
             <h2 class="display-5 text-white py-3">Favorite Movies</h2>
-        </div>
-            <!--favourite-->
             <div class="bg-dark">
-            <div class="container">
-                <div class="row py-4" style="line-height: 1%;">
-                    <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                        <div class="card">
-                            <img src="assets/img/they_live.bmp" style="object-fit: cover;">
-                            <div class="bg-success">
-                                <h1 class="card-title" style="font-size: 1.2em;">They Live</h1>
-                                <p>Year: 1988</p>
-                                <p>Genre: Sci-Fi</p>
-                                <a href="#"><p>Remove from favorites</p></a>
+                <div class="container">
+                    <div class="row py-4" style="line-height: 1%;">
+                        <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="assets/img/they_live.bmp" style="object-fit: cover;">
+                                <div class="bg-success">
+                                    <h1 class="card-title" style="font-size: 1.2em;">They Live</h1>
+                                    <p>Year: 1988</p>
+                                    <p>Genre: Sci-Fi</p>
+                                    <a href="#"><p>Remove from favorites</p></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
-                        <div class="card">
-                            <img src="assets/img/a_sunday_in_hell.bmp" style="object-fit: cover;">
-                            <h1 class="card-title" style="font-size: 1.2em;">Test</h1>
-                            <p>Year: 1988</p>
-                            <p>Genre: Sci-Fi</p>
-                            <p>Remove from favorites</p>
+                        <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
+                            <div class="card">
+                                <img src="assets/img/a_sunday_in_hell.bmp" style="object-fit: cover;">
+                                <h1 class="card-title" style="font-size: 1.2em;">Test</h1>
+                                <p>Year: 1988</p>
+                                <p>Genre: Sci-Fi</p>
+                                <p>Remove from favorites</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-            
+        </section>
+
         <!--all-->
-        <div class="container">
+        <section class="container">
             <h2 class="display-5 text-white mt-3 py-3">All Movies</h2>
             <div class="row py-4" style="line-height: 1%;">
                 <div class="col-sm-12 col-md-4 col-lg-3 mb-4">
@@ -101,17 +104,17 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </section>
 
 
             <!--footer-->
-            <footer class="bottom text-center">
-                <p class="text-white">Personal Movie DB - &copy; 2018 ligebanan</p>
-            </footer>
-        </div>
-        <script src="/js/jquery.min.js"></script>
-        <script src="/js/popper.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
+        <footer class="bottom text-center">
+            <p class="text-white">Personal Movie DB - &copy; 2018 ligebanan</p>
+        </footer>
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
 
         <script>
             var request = new XMLHttpRequest();
